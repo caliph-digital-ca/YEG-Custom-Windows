@@ -1,0 +1,51 @@
+# SEO change log
+
+Changes made in Webflow to resolve SE Ranking site-audit issues. All were published to yegcustomwindows.ca and www.yegcustomwindows.ca.
+
+## 2026-11-19: Titles and meta descriptions
+
+### Title too long (service pages)
+
+Service page titles come from the **Services Template** (CMS collection page). Its SEO title changed:
+
+- Before: `{Name} - Edmonton WIndow & Door Installation Company`
+- After: `{Name} | YEG Custom Windows`
+
+| Page | New title | Chars |
+|---|---|---|
+| /services/window-door-installation-and-repairs | Window & Door Installation and Repairs \| YEG Custom Windows | 59 |
+| /services/cracked-foggy-glass-replacement | Cracked & Foggy Glass Replacement \| YEG Custom Windows | 54 |
+| /services/basement-egress-windows | Basement Egress Windows \| YEG Custom Windows | 44 |
+
+### Title too short (static pages)
+
+| Page | Before | After |
+|---|---|---|
+| /about | About | About Us \| YEG Custom Windows Edmonton |
+| /our-work | Our Work | Our Work \| Window & Door Projects in Edmonton |
+| /catalogue | Catalogue | Window, Door & Glass Catalogue \| YEG Custom Windows |
+| /contact | Contact | Contact Us \| Free Window & Door Quotes in Edmonton |
+| /thanks | Thanks | Thank You \| YEG Custom Windows |
+
+### Duplicate description
+
+/promo and /thanks reused the homepage description. Each now has its own:
+
+- **/promo**: Save 33% on cracked and foggy glass repairs in Edmonton. We replace just the glass, not the whole window. Claim your offer and book a free quote today.
+- **/thanks**: Thanks for contacting YEG Custom Windows. We've received your request and will be in touch shortly about your window, door or glass project.
+
+### Description too long
+
+The service meta description is built as `{H2 Heading}. {Short Description}`. For /services/window-door-installation-and-repairs (167 chars), the CMS item's Short Description was shortened:
+
+- Before: New installs, replacements, and repairs on existing windows and doors — done to code, done clean.
+- After: New installs, replacements and repairs — done to code, done clean.
+
+Resulting description: 136 chars.
+
+## 2026-11-19: Orphan pages (/promo, /thanks)
+
+Both pages had no incoming internal links but were listed in the sitemap. /thanks is a form confirmation page and /promo is a paid-ad landing page, so they should not be indexed.
+
+- Added `<meta name="robots" content="noindex, follow">` to the page head code of /promo and /thanks.
+- **To do (manual):** exclude /promo and /thanks from the sitemap in Webflow page settings (the API token lacked permission). Consider excluding /style-guide too.
