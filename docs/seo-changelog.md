@@ -2,6 +2,14 @@
 
 Changes made in Webflow to resolve SE Ranking site-audit issues. All were published to yegcustomwindows.ca and www.yegcustomwindows.ca.
 
+## 2026-11-19: Internal links to 3XX redirect pages
+
+Every page linked to `https://yegcustomwindows.ca/` (non-www), which 301-redirects to `https://www.yegcustomwindows.ca/`.
+
+- Cause: the **Offers** link in the `navbar_component` (shown on every page) was an absolute URL, `https://yegcustomwindows.ca/#offers`.
+- Fix: changed it to the relative link `/#offers`, so it always stays on the current domain with no redirect.
+- Checked the homepage, footer, services grid and CTA components; no other absolute non-www links found.
+
 ## 2026-11-19: Titles and meta descriptions
 
 ### Title too long (service pages)
