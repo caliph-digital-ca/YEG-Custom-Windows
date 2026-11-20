@@ -2,6 +2,25 @@
 
 Changes made in Webflow to resolve SE Ranking site-audit issues. All were published to yegcustomwindows.ca and www.yegcustomwindows.ca.
 
+## 2026-11-20: Multiple H1 tags
+
+The homepage, /promo, /catalogue and every /locations/* page had more than one H1.
+
+- Cause: the product card title (class `heading-style-h5`) inside the catalogue collection list was set to H1, so each page got an extra H1 for every product shown.
+- Fix: changed that heading from H1 to H2 on **Home**, **Promo**, **Catalogue** and the **Locations Template**. The class is unchanged, so it looks the same. Each page now has only its hero H1.
+- Checked **Services Template** (already H3), **About** and **Our Work** (no such heading); no changes needed.
+
+### Edmonton location typos
+
+The Edmonton CMS item (Locations collection) had typos in its headings, which also fed its meta description:
+
+| Field | Before | After |
+|---|---|---|
+| H1 Heading | Window & Door Services in Edmontoon | Window & Door Services in Edmonton |
+| H2 Heading | Edmon Window & Door Service Companyoon | Edmonton Window & Door Service Company |
+
+Published to yegcustomwindows.ca and www.yegcustomwindows.ca.
+
 ## 2026-11-20: Slow page loading and Speed Index
 
 SE Ranking flagged slow loading on /locations/fort-saskatchewan and a poor Speed Index on the homepage.
