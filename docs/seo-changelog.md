@@ -2,6 +2,16 @@
 
 Changes made in Webflow to resolve SE Ranking site-audit issues. All were published to yegcustomwindows.ca and www.yegcustomwindows.ca.
 
+## 2026-11-20: Slow page loading and Speed Index
+
+SE Ranking flagged slow loading on /locations/fort-saskatchewan and a poor Speed Index on the homepage.
+
+- Cause: the site's images were large, uncompressed PNG/JPG files (about 13 MB in total). The hero image alone (`Hero.png`) was 1.4 MB and appears on the homepage and every location page.
+- Fix 1: converted 19 PNG/JPG assets to WebP with Webflow's asset compression: 12.98 MB down to 1.29 MB (90% smaller). The conversion replaced the files in place, so the PNG/JPG originals are no longer stored in Webflow. `Hero.png` went from 1.39 MB to 27 KB.
+  - Not converted: `fav-icon.png` and `web-clip.png`, which stay PNG for browser and device icon support. SVG files were already small.
+- Fix 2: the hero image (`header_background-image`) on the **Home** page and **Locations Template** now has `loading="eager"` and `fetchpriority="high"`, so the browser loads it first instead of lazy-loading it.
+- Published to yegcustomwindows.ca and www.yegcustomwindows.ca.
+
 ## 2026-11-19: Internal links to 3XX redirect pages
 
 Every page linked to `https://yegcustomwindows.ca/` (non-www), which 301-redirects to `https://www.yegcustomwindows.ca/`.
