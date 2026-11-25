@@ -2,7 +2,7 @@
 title: "Condensation Between Window Panes: What It Means and What It Costs to Fix in Edmonton"
 date: 2026-11-26
 author: "@Caliph"
-slug: /blog/condensation-between-window-panes-edmonton
+slug: /condensation-between-window-panes-edmonton
 seo_title: "Foggy Window Repair Edmonton: Condensation Between Panes"
 meta_description: "Fog between your window panes means the seal has failed. See your repair options and what foggy glass replacement costs in Edmonton, from $399."
 primary_keyword: "foggy window repair Edmonton"
@@ -14,7 +14,7 @@ secondary_keywords:
 ai_prompt_targeted: "Who can fix foggy windows in Edmonton without replacing the whole window?"
 links_to:
   - /services/cracked-foggy-glass-replacement
-  - /blog/frost-inside-windows-edmonton
+  - /frost-inside-windows-edmonton
 schema:
   - Article
   - FAQPage
@@ -46,7 +46,7 @@ You'll notice it most on cold mornings or when the sun hits the window. Some day
 
 ## Foggy between the panes vs frost on the inside
 
-If you can wipe the moisture away from inside the room, it's surface condensation, usually caused by indoor humidity. If you can't touch it because it's between the glass, the seal has failed. (See our guide to [frost on the inside of windows](/blog/frost-inside-windows-edmonton) for the humidity side of the problem.)
+If you can wipe the moisture away from inside the room, it's surface condensation, usually caused by indoor humidity. If you can't touch it because it's between the glass, the seal has failed. (See our guide to [frost on the inside of windows](/frost-inside-windows-edmonton) for the humidity side of the problem.)
 
 ## Your options to fix a foggy window
 

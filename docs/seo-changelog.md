@@ -86,3 +86,14 @@ Both pages had no incoming internal links but were listed in the sitemap. /thank
 
 - Added `<meta name="robots" content="noindex, follow">` to the page head code of /promo and /thanks.
 - **To do (manual):** exclude /promo and /thanks from the sitemap in Webflow page settings (the API token lacked permission). Consider excluding /style-guide too.
+
+## 2026-11-25: First two blog posts published
+
+| Page | SEO title | Schema |
+|---|---|---|
+| /frost-inside-windows-edmonton | Frost on the Inside of Windows? Edmonton Guide | Article + FAQPage |
+| /condensation-between-window-panes-edmonton | Foggy Window Repair Edmonton: Condensation Between Panes | Article + FAQPage |
+
+- Built as static pages copied from /about, with the article in new `blog-*` classes. Source copy is in [content/blog](../content/blog/README.md).
+- Published at root URLs because a `/blog` folder needs the Webflow Designer open. **To do:** move them into `/blog` and add 301 redirects.
+- `/window-replacement` doesn't exist, so that link points to /services/window-door-installation-and-repairs.

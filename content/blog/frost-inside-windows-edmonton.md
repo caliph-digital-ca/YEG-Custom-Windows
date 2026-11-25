@@ -2,7 +2,7 @@
 title: "Why Is There Frost or Ice on the Inside of My Windows? An Edmonton Winter Guide"
 date: 2026-11-24
 author: "@Caliph"
-slug: /blog/frost-inside-windows-edmonton
+slug: /frost-inside-windows-edmonton
 seo_title: "Frost on the Inside of Windows? Edmonton Guide"
 meta_description: "Ice inside your windows this winter? Learn what causes it, how to tell humidity from a failed seal, and when Edmonton homeowners should repair or replace."
 primary_keyword: "frost on inside of windows"
@@ -13,7 +13,7 @@ secondary_keywords:
 ai_prompt_targeted: "Why is there frost on the inside of my windows in winter?"
 links_to:
   - /services/cracked-foggy-glass-replacement
-  - /window-replacement
+  - /services/window-door-installation-and-repairs
 schema:
   - Article
   - FAQPage
@@ -56,7 +56,7 @@ In very cold weather, indoor humidity often needs to be lower than in fall. A hu
 If frost forms on just one or two windows, or keeps coming back even after you lower humidity, the window is the problem. Signs to look for:
 
 - **Frost on the frame or around the edges, not just the glass.** This points to air leaks or worn weatherstripping.
-- **Fog or moisture between the panes.** This means the seal on the sealed glass unit has failed and the insulating gas has escaped. (We cover this in detail in our post on [condensation between window panes](/blog/condensation-between-window-panes-edmonton).)
+- **Fog or moisture between the panes.** This means the seal on the sealed glass unit has failed and the insulating gas has escaped. (We cover this in detail in our post on [condensation between window panes](/condensation-between-window-panes-edmonton).)
 - **Drafts** you can feel near the window on a cold day.
 - **Ice that won't melt** during the day, even with the blinds open.
 - **Old single-pane or early double-pane windows**, often in homes built before the 1990s.
@@ -77,7 +77,7 @@ A failing window doesn't just frost up. It also wastes heat and can let moisture
 
 You don't always need a whole new window. If the frame is in good shape and the problem is the glass, replacing just the sealed glass unit is often the cheapest fix. At YEG Custom Windows, [foggy or broken glass replacement](/services/cracked-foggy-glass-replacement) starts at $399.
 
-If the frame is warped, rotting, drafty or the window is simply old and inefficient, [replacement](/window-replacement) makes more sense. Energy-rated uPVC triple-pane windows keep the inner glass warmer and start at $649.
+If the frame is warped, rotting, drafty or the window is simply old and inefficient, [replacement](/services/window-door-installation-and-repairs) makes more sense. Energy-rated uPVC triple-pane windows keep the inner glass warmer and start at $649.
 
 ## When to call a pro
 
