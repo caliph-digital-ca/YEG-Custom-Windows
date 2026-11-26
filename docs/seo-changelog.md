@@ -2,6 +2,18 @@
 
 Changes made in Webflow to resolve SE Ranking site-audit issues. All were published to yegcustomwindows.ca and www.yegcustomwindows.ca.
 
+## 2026-11-26: /thanks page audit issues
+
+- **Multiple H1 tags:** the hidden catalogue section on /thanks had a CMS card heading set to H1 (style `heading-style-h5`). Changed it to H3, so "We will give you a call shortly!" is the only H1.
+- **External link to 3XX:** the "Caliph Digital" credit link in `footer_component` pointed to `caliphdigital.ca` (no scheme), which redirects. Changed it to `https://www.caliphdigital.ca/`. Site-wide, as the footer is on every page.
+- **Internal link missing anchor:** the navbar and footer logo links (`navbar_logo-link`, `footer_logo-link`) to the homepage contained only an image with no alt text. Added `aria-label="YEG Custom Windows home"` to both and gave the logo image alt text (below).
+- **Alt text missing:**
+  - Logo asset (`ChatGPT Image Sep 14, 2026, 09_13_15 AM 1.webp`): alt "YEG Custom Windows logo". Site-wide, wherever the image inherits asset alt.
+  - Hero background `window-condensation-in-winter.webp`: alt "Condensation on a window in winter".
+  - Meta Pixel `<noscript>` tracking image in the /thanks head code: added `alt=""` (decorative 1x1 pixel).
+- **Restored noindex:** the /thanks head code no longer had the `<meta name="robots" content="noindex, follow">` added on 2026-11-19 (it was replaced when the Meta Pixel was added). Re-added it above the pixel code.
+- **No inbound links:** expected for a form confirmation page that is noindexed; no change.
+
 ## 2026-11-19: Internal links to 3XX redirect pages
 
 Every page linked to `https://yegcustomwindows.ca/` (non-www), which 301-redirects to `https://www.yegcustomwindows.ca/`.
